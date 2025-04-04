@@ -10,6 +10,7 @@ html {
 
 h3 {
     color: hsl(218, 44%, 22%);
+    font-size: 22px;
     font-weight: 700;
 }
 
@@ -20,5 +21,19 @@ p {
 }
 
 .card {
+    display: inline-block flex;
+    justify-content: center;
+    margin: auto;
+    width: 320px;
+    height: auto;
+    padding: 16px 16px 40px 16px;
+    text-align: center;
+    border-radius: 20px;
     background-color: hsl(0, 0%, 100%);
+}
+
+.qr-image {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px;
 }
