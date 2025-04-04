@@ -8,6 +8,14 @@ html {
     background-color: hsl(212, 45%, 89%);
 }
 
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
 h3 {
     color: hsl(218, 44%, 22%);
     font-size: 22px;
@@ -21,11 +29,8 @@ p {
 }
 
 .card {
-    display: inline-block flex;
-    justify-content: center;
-    margin: auto;
+    display: inline-block;
     width: 320px;
-    height: auto;
     padding: 16px 16px 40px 16px;
     text-align: center;
     border-radius: 20px;
